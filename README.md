@@ -1,9 +1,9 @@
-#Demo App
+# Demo App
 
-##Project Structure
+## Project Structure
 
-###Backend Folder contains all the backend logic.Backend is made using NestJs
+### Backend Folder contains all the backend logic.Backend is made using NestJs
 
-###moralisStream folder contains moralis webhook stream scripts.
+### moralisStream folder contains moralis webhook stream scripts.
 
-###Frontend folder contains frontend code, It is made with NextJS.
+### Frontend folder contains frontend code, It is made with NextJS.
