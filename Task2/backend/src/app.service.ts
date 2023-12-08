@@ -29,18 +29,18 @@ export class AppService {
 
 
 
-    // const decode = Moralis.Streams.parsedLogs<URI>(body);
+    const decode = Moralis.Streams.parsedLogs<URI>(body);
 
-    // console.log(decode[0].name.toString());
-    // console.log(decode[0].phoneNo.toString());
-    // let name  = decode[0].name.toString()
-    // let phoneNo = decode[0].phoneNo.toString()
+    console.log(decode[0].name.toString());
+    console.log(decode[0].phoneNo.toString());
+    let name  = decode[0].name.toString()
+    let phoneNo = decode[0].phoneNo.toString()
 
-  //   const newContact = new contact({
-  //     name, phoneNo
-  // })
+    const newContact = new contact({
+      name, phoneNo
+  })
 
-  // await newContact.save()
+  await newContact.save()
     
 
    } catch (error) {
